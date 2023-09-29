@@ -4,13 +4,13 @@
             <element>comments</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-09-28 07:36:53</sys_created_on>
-            <sys_id>9b16f72947e5b110892a2c44846d43e2</sys_id>
+            <sys_created_on>2023-09-29 07:49:42</sys_created_on>
+            <sys_id>e4a2c50647a9f110892a2c44846d43f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Log" display_value="Log" name="x_58872_needit_needit" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c716f72947e5b110892a2c44846d438a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-09-28 07:36:53</sys_updated_on>
+            <sys_updated_on>2023-09-29 07:49:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,27 @@
             <element>worknote</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-09-28 07:36:53</sys_created_on>
-            <sys_id>1f16f72947e5b110892a2c44846d43e2</sys_id>
+            <sys_created_on>2023-09-29 07:49:42</sys_created_on>
+            <sys_id>68a2c50647a9f110892a2c44846d43f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Log" display_value="Log" name="x_58872_needit_needit" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c716f72947e5b110892a2c44846d438a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-09-28 07:36:53</sys_updated_on>
+            <sys_updated_on>2023-09-29 07:49:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_start</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-29 07:49:42</sys_created_on>
+            <sys_id>e8a2c50647a9f110892a2c44846d43f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_58872_needit_needit" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">c716f72947e5b110892a2c44846d438a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-29 07:49:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
