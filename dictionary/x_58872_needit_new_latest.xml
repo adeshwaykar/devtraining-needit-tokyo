@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="36d8854a47a9f110892a2c44846d439f" extends="task" label="New Latest" max_length="40" name="x_58872_needit_new_latest" type="collection"/>
+</database>

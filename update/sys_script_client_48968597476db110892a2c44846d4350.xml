@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_requested_for</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>OnChnageDemo</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+  var a=g_form.getReference('u_requested_for');
+	
+	if(a!=' '){
+		g_form.setValue("u_string_10",5);
+		g_form.setValue("u_requested_type",2);
+		
+		var DateObj=new Date();
+		var mini=DateObj.getMinutes();
+		var dat=DateObj.getDate();
+		if(mini<10 ){
+			mini=0+""+mini;
+		}
+		if(dat<10){
+			dat=0+""+dat;
+		}
+		
+		var datetime= DateObj.getFullYear()+'-'+(DateObj.getMonth()+1)+'-'+dat; 
+  datetime += ' '+DateObj.getHours()+':'+mini+':'+DateObj.getSeconds();
+		g_form.setValue("u_when_needed",datetime);
+	}else{
+		confirm("hello");
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 05:24:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48968597476db110892a2c44846d4350</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>OnChnageDemo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_48968597476db110892a2c44846d4350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 08:16:04</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
