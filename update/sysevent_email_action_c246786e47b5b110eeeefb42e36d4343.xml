@@ -40,12 +40,13 @@
 <p><strong>An overdue NeedIt Task is assigned to you:</strong>.</p>
 <p><strong>Number: ${number}<br /></strong></p>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 <div>&nbsp;</div>
 <p><strong>Short description: ${short_description}<br /></strong></p>
 <p>please Complete This Task as soon as posiible.</p>
 <p>click here to view the NeedIt Task record: ${URI_REF}</p>
 <p>&nbsp;</p>
-<p><em><strong>${mail_script:CountOverdueNeedItTasksAssignedTo}</strong></em></p>]]></message_html>
+<p><span style="font-size: 12pt;"><em><strong>${mailto:mailto.closeneedittask}</strong></em></span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Overdue NeedIt Task</name>
@@ -54,7 +55,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users>adesh.waykar1@guerrillamail.com</recipient_users>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441,waykaradesh6@gmail.com,adesh@guerrillamail.com</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -67,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c246786e47b5b110eeeefb42e36d4343</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -75,7 +76,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_c246786e47b5b110eeeefb42e36d4343</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-13 11:39:22</sys_updated_on>
+        <sys_updated_on>2023-10-14 13:12:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
